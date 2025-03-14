@@ -1,12 +1,47 @@
-# React + Vite
+# Product Store - React App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple e-commerce product store built using React, Material-UI, and React Router. The app allows users to browse products, add them to a shopping cart, and view the contents of the cart. Products are fetched from a dummy API for demonstration purposes.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Product Listing with Search and Sort functionality
+- Add/Remove products from the cart
+- Cart page to view selected items and their quantities
+- Pagination for product list
+- Basic state management using React Context API for Cart
+- UI built with Material-UI components
 
-## Expanding the ESLint configuration
+## Technologies Used
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React
+- React Router DOM
+- Material-UI
+- Axios (for API calls)
+- React Context API (for cart state management)
+
+## Installation
+
+### Prerequisites
+
+Make sure you have [Node.js](https://nodejs.org/) and [npm](https://www.npmjs.com/) installed.
+
+### Steps to Run Locally
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/product-store.git
+
+2. Navigate to the project folder:
+
+   ```bash
+    cd product-store
+
+3. Install dependencies:
+
+   ```bash 
+   npm install
+
+4. Start the development server:
+
+   ```bash
+    npm start
